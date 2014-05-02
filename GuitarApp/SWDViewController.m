@@ -26,4 +26,28 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (UIImage *)imageByDrawingCircleOnImage:(UIImage *)image
+{
+	UIGraphicsBeginImageContext(image.size);
+    
+	[image drawAtPoint:CGPointZero];
+    
+	CGContextRef ctx = UIGraphicsGetCurrentContext();
+    
+	[[UIColor redColor] setStroke];
+    
+	CGRect circleRect = CGRectMake(0, 0,
+                                   image.size.width,
+                                   image.size.height);
+	circleRect = CGRectInset(circleRect, 5, 5);
+    
+	CGContextStrokeEllipseInRect(ctx, circleRect);
+    
+	UIImage *retImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+	UIGraphicsEndImageContext();
+    
+	return retImage;
+}
+
 @end

@@ -21,6 +21,7 @@
 		E6170F26191302E40050158D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6170F08191302E40050158D /* UIKit.framework */; };
 		E6170F2E191302E40050158D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6170F2C191302E40050158D /* InfoPlist.strings */; };
 		E6170F30191302E40050158D /* GuitarAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6170F2F191302E40050158D /* GuitarAppTests.m */; };
+		E6170F3A191303270050158D /* fretBoardHorizontal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6170F39191303270050158D /* fretBoardHorizontal.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E6170F2B191302E40050158D /* GuitarAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuitarAppTests-Info.plist"; sourceTree = "<group>"; };
 		E6170F2D191302E40050158D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E6170F2F191302E40050158D /* GuitarAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuitarAppTests.m; sourceTree = "<group>"; };
+		E6170F39191303270050158D /* fretBoardHorizontal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fretBoardHorizontal.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		E6170F0A191302E40050158D /* GuitarApp */ = {
 			isa = PBXGroup;
 			children = (
+				E6170F39191303270050158D /* fretBoardHorizontal.jpg */,
 				E6170F13191302E40050158D /* SWDAppDelegate.h */,
 				E6170F14191302E40050158D /* SWDAppDelegate.m */,
 				E6170F16191302E40050158D /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6170F1D191302E40050158D /* Images.xcassets in Resources */,
+				E6170F3A191303270050158D /* fretBoardHorizontal.jpg in Resources */,
 				E6170F0F191302E40050158D /* InfoPlist.strings in Resources */,
 				E6170F18191302E40050158D /* Main.storyboard in Resources */,
 			);
